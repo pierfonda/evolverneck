@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if ! [ "$#" == 3 ]; then
+	echo "Syntax: ./runevolver evolver_file nstep out_file"
+	exit
+fi
+
+i=0
+DISTin=.1
+DISTmax=2
+
+rm -f *.dmp
+rm -f *.tmp
+rm -f *.dat
+
+while [ $i -le $2 ];
+	do
+		rm -f temp_energy
+		dist=$(echo "scale=5; $DISTin+$i*($DISTmax-$DISTin)/$2" | bc -l )
+		echo "Processing distance $dist (step $i)"
+		echo -n $dist "	" >> $3.tmp
+		sed -i "/PARAMETER  DIST/c\PARAMETER  DIST = $dist" $1
+		sed -i "s,sumcurvn().*,sumcurvn() | \"cat >> ${3}.tmp\",g" $1
+		evolver-ogl-ld $1 > /dev/null
+		mv one_sphere.vertices.dat one_sphere_$i.dat 2> /dev/null
+		let i=i+1
+done
+
+echo "Finish. "
