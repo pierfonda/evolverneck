@@ -16,10 +16,8 @@ This repository contains:
 
 # Usage 
 
-//In `one_ellipse_one_plane`, the parameter _DIST_ determines the distance between the sphere center and the horizontal plane. The steric interaction of the plane and of the sphere with the surface are implemented as global constraints. 
-
-To run the script do simply:
+Edit the parameter _DIST_ in `one_ellipse_one_plane` to the desired value, then run the main script
 
 > evolver one_ellipse_one_plane
 
-and then from the SE interface run one of the predefined evolution commands. I suggest _namo3_. 
+and then, from the SE interface, run one of the predefined evolution commands (currently,  _namo3_ works best).
