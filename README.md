@@ -20,4 +20,4 @@ Edit the parameter _DIST_ in `one_ellipse_one_plane` to the desired value, then 
 
 > evolver one_ellipse_one_plane
 
-and then, from the SE interface, run one of the predefined evolution commands (currently,  _namo3_ works best).
+and then, from the SE interface, execute one of the predefined evolution commands (currently,  _namo3_ works best).
