@@ -1,4 +1,4 @@
-# evolverneck
+# Evolverneck
 
 This repository contains the essential code necessary to verify that the analytic solution found in the paper [*Metastability of lipid necks via geometric triality*](https://arxiv.org/abs/2101.01161) is a locally stable Willmore surface.
 
@@ -14,7 +14,7 @@ This repository contains:
 
 `generic_functions.el` small library of ad-hoc functions, useful to optimize the geometric flow and to save geometric data in Mathematica-friendly format.
 
-# Usage 
+## Usage 
 
 Edit the parameter _DIST_ in `one_ellipse_one_plane` to the desired value, then run the main script
 
