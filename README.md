@@ -1,6 +1,6 @@
 # evolverneck
 
-This repository contains the essential code necessary to verify that the analytic solution found in the paper *Metastability of lipid necks via geometric triality* is a locally stable Willmore surface.
+This repository contains the essential code necessary to verify that the analytic solution found in the paper [*Metastability of lipid necks via geometric triality*](https://arxiv.org/abs/2101.01161) is a locally stable Willmore surface.
 
 Being able to run locally [Surface Evolver](http://facstaff.susqu.edu/brakke/evolver/evolver.html) is a requirement.
 
