@@ -16,10 +16,10 @@ This repository contains:
 
 # Usage 
 
-In `one_ellipse_one_plane`, the parameter _DIST_ determines the distance between the sphere center and the horizontal plane. The steric interaction of the plane and of the sphere with the surface are implemented as inequality constraints (see _constraint 1_ and _constraint 2_). 
+//In `one_ellipse_one_plane`, the parameter _DIST_ determines the distance between the sphere center and the horizontal plane. The steric interaction of the plane and of the sphere with the surface are implemented as global constraints. 
 
 To run the script do simply:
 
 > evolver one_ellipse_one_plane
 
-and then from the evolver interface run one of the predefined evolution commands. I suggest _namo3_. 
+and then from the SE interface run one of the predefined evolution commands. I suggest _namo3_. 
