@@ -4,7 +4,7 @@ This repository contains the essential code necessary to verify that the analyti
 
 Being able to run locally [Surface Evolver](http://facstaff.susqu.edu/brakke/evolver/evolver.html) is a requirement.
 
-This repo contains:
+This repository contains:
 
 `one_ellipse_one_plane` contains an editable Evolver file where geometrically parameter can be set.
 
