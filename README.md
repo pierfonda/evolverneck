@@ -2,7 +2,7 @@
 
 This repository contains the essential code necessary to verify that the analytic solution found in the paper *Metastability of lipid necks via geometric triality* is a locally stable Willmore surface.
 
-Having [Surface Evolver](http://facstaff.susqu.edu/brakke/evolver/evolver.html) locally installed on the machine is a requirement.
+Being able to run locally [Surface Evolver](http://facstaff.susqu.edu/brakke/evolver/evolver.html) is a requirement.
 
 This repo contains:
 `one_ellipse_one_plane` contains an editable Evolver file where geometrically parameter can be set.
