@@ -6,7 +6,7 @@ Being able to run locally [Surface Evolver](http://facstaff.susqu.edu/brakke/evo
 
 This repository contains:
 
-`one_ellipse_one_plane` the main SE script file
+`one_ellipse_one_plane` the main SE script file.
 
 `oeop.fe` SE file optimized for bash calls. 
 
@@ -14,6 +14,7 @@ This repository contains:
 
 `generic_functions.el` small library of ad-hoc functions, useful to optimize the geometric flow and to save geometric data in Mathematica-friendly format.
 
+# Usage 
 
 In `one_ellipse_one_plane`, the parameter _DIST_ determines the distance between the sphere center and the horizontal plane. The steric interaction of the plane and of the sphere with the surface are implemented as inequality constraints (see _constraint 1_ and _constraint 2_). 
 
